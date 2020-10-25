@@ -12,7 +12,6 @@ Contains character with only hands geometry and proxy HIK character, mapped to `
 ---
 > NOTE: Proxy character is the one which receives live stream.
 
-
 # Steps to live stream gloves
 
 ## Step 1. Prepare gloves mesh
@@ -32,3 +31,8 @@ Including fingers
 * Set newly created HIK as source for Gloves HIK
 
 ![fingers](readmeImages/streamGloves.gif)
+
+# Links
+Here you can find a requirements for default T-Pose
+
+https://help.autodesk.com/view/HUMANIK/2016/ENU/?guid=__files_GUID_85AEC0B3_AA98_4BEE_9D59_B1D5AE2782EA_htm
