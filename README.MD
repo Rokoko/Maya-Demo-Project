@@ -1,40 +1,21 @@
-# Demo scene
+<h2 align="center"> Rokoko Studio - Maya Demo Project</h1>
 
-Contains Mime character with mapped face shapes and proxy HIK character, mapped to `Ryan` actor.
-Also contains a single camera nested in an empty group, mapped to `Camera-1` prop.
+[Rokoko Studio](https://www.rokoko.com/en/products/studio) is a powerful and intuitive software for recording, visualizing and exporting motion capture.
 
-![gloves](readmeImages/DemoSceneRec.gif)
-![gloves](readmeImages/DemoSceneRecProps.gif)
-
-# Gloves scene
-
-Contains character with only hands geometry and proxy HIK character, mapped to `Ryan` actor.
-
+This Demo project let's you start up a scene with a character already set up for Rokoko Studio live streaming for you to test out and learn how the Rokoko Studio Live works. 
 
 ---
-> NOTE: Proxy character is the one which receives live stream.
 
-# Steps to live stream gloves
+## Requirements
+- Maya 2020 or higher
+- Rokoko Studio 1.18.0b
 
-## Step 1. Prepare gloves mesh
+## Featured in this demo project
+- A charecter set up for body, finger and face data streaming from Rokoko Studio
+- Virtual camera setup
+- Props ready to add to your tracker inside Rokoko Studio
 
-Gloves is normal character with valid skeleton. Which needs to have HIK characterization.
+---
 
-![gloves](readmeImages/prepareHandsHIK.png)
-
-Including fingers
-
-![fingers](readmeImages/characterizationFingers.png)
-
-## Step 2. Follow normal hik pipeline
-
-* Start receiver and create HIK for actor
-* Map actor to newly created HIK
-* Set newly created HIK as source for Gloves HIK
-
-![fingers](readmeImages/streamGloves.gif)
-
-# Links
-Here you can find a requirements for default T-Pose
-
-https://help.autodesk.com/view/HUMANIK/2016/ENU/?guid=__files_GUID_85AEC0B3_AA98_4BEE_9D59_B1D5AE2782EA_htm
+For a guide on how to use the Demo Project go to the wiki page **Rokoko Studio Maya Demo Project**:
+https://github.com/Rokoko/Maya-Demo-Project/wiki/Rokoko-Studio---Maya-Demo-Project
